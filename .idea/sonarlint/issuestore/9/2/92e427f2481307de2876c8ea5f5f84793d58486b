@@ -1,0 +1,14 @@
+
+\
+java:S1126%"AReplace this if-then-else statement by a single return statement.(è »Ùüÿÿÿÿ
+{
+java:S1128"YRemove this unused import 'co.com.choucair.retouno.userinterface.ColorLibFormularioPage'.(×·žÔøÿÿÿÿ8õ¨Âþð/
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çÛ÷‚
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ßÆ¶
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»–€À
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†œæý
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™¬‘¬
+f	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›¨¿§
+f	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò€ÀÔ
+k	java:S117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò ­¨ýÿÿÿÿ
+k	java:S117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òåæ°ùÿÿÿÿ

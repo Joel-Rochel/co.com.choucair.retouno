@@ -1,0 +1,257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="2d2cc5ffec9591d253d8f5b060ac6d0d29d3459e22558a8dc3993955f732582d.html">Colorlib</a></span>
+                > <span class="truncate-60"><a
+                    href="0d38f8442da3df7ba82630618783a36015303f53d973497536861070926d4f23.html">Check the format of the confirm password field </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-02-2022 23:03</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Colorlib </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user, I want to verify the completion of the Block Validation screen
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8b8e8caa53ffa3185ce9ad4fa40caa855e977c586fa990a927423cc80ef7ee16.html">Scenario5
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Check the format of the confirm password field
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="737db7ae539cca3d7493951eeb7f28fb80f92aeffaedde4687b5759c107f938e.png" title=" Given Joel want to verify that the confirm password field is valid
+| strUsuario | strClave |
+| demo | demo |" width="1366"/>
+                <img src="737db7ae539cca3d7493951eeb7f28fb80f92aeffaedde4687b5759c107f938e.png" title=" Joel open up" width="1366"/>
+                <img src="737db7ae539cca3d7493951eeb7f28fb80f92aeffaedde4687b5759c107f938e.png" title=" Joel opens the Color lib page" width="1366"/>
+                <img src="737db7ae539cca3d7493951eeb7f28fb80f92aeffaedde4687b5759c107f938e.png" title=" Joel open up (completed)" width="1366"/>
+                <img src="01492049e6cd6b5012d7fbcfc183be6e33639561f9548e462cb90ba85038ddf6.png" title=" Joel login" width="1366"/>
+                <img src="01492049e6cd6b5012d7fbcfc183be6e33639561f9548e462cb90ba85038ddf6.png" title=" Joel enters 'demo' into Campo para ingresar el nombre de usuario" width="1366"/>
+                <img src="131cf1b4627b7d6c16c24c22a21074296a7112d8e7e5147a35e957469c886a50.png" title=" Joel enters 'demo' into Campo para ingresar el nombre del usuario" width="1366"/>
+                <img src="433014277ef06ee214f0fcd388ba381bdccaf82e80762ac74f77d36b22777997.png" title=" Joel clicks on Campo para ingresar el nombre del usuario" width="1366"/>
+                <img src="433014277ef06ee214f0fcd388ba381bdccaf82e80762ac74f77d36b22777997.png" title=" Joel login (completed)" width="1366"/>
+                <img src="bbe57b541ecdbf78d50d6863fe2b1cafb29302ef8834ae4caf706278a7cdf8ba.png" title=" Joel ingresar" width="1366"/>
+                <img src="bbe57b541ecdbf78d50d6863fe2b1cafb29302ef8834ae4caf706278a7cdf8ba.png" title=" Joel clicks on Seleccionar el menu de formularios" width="1366"/>
+                <img src="29f9992613ca57951b2b1e2e9957b10b5d238684338ae00f49488d367ddaab9d.png" title=" Joel clicks on Seleccionar el formulario de validacion" width="1366"/>
+                <img src="29f9992613ca57951b2b1e2e9957b10b5d238684338ae00f49488d367ddaab9d.png" title=" Joel ingresar (completed)" width="1366"/>
+                <img src="29f9992613ca57951b2b1e2e9957b10b5d238684338ae00f49488d367ddaab9d.png" title=" Given Joel want to verify that the confirm password field is valid
+| strUsuario | strClave |
+| demo | demo | (completed)" width="1366"/>
+                <img src="b78ddb97f731b5a14467515be2db146e176ffbdae17d33196a7533e1da158edc.png" title=" When enter a wrong confirm password in the field
+| strRequired | strEmail | strPassword | strCPassword | strDate | strUrl | strDigits | strRange |
+| Joel | joel1@gamil.com | 12345@JDRH | 12345@JDRH@ | 24081998 | https://www.hola2.com | 123 | 7 |" width="1366"/>
+                <img src="b78ddb97f731b5a14467515be2db146e176ffbdae17d33196a7533e1da158edc.png" title=" Joel formulario" width="1366"/>
+                <img src="b78ddb97f731b5a14467515be2db146e176ffbdae17d33196a7533e1da158edc.png" title=" Joel enters 'Joel' into Campo para ingresar el nombre" width="1366"/>
+                <img src="3cd1f033ad4ea366354b99809564d4d7210a22cc7d20be5068e5a47ce516a026.png" title=" Joel enters 'joel1@gamil.com' into Campo para ingresar el email" width="1366"/>
+                <img src="5421763748e2239bf397a86603b0fdf940c1bd79bc268a7566002524f92b56c6.png" title=" Joel enters '12345@JDRH' into Campo para ingresar la clave" width="1366"/>
+                <img src="ea2d6ed5e9d0f133f150fcf5f0b5207eec2f6e50ecd7a3f60fda7100c418aa79.png" title=" Joel enters '12345@JDRH@' into Campo para confirmar la clave" width="1366"/>
+                <img src="f064d76cbee9be5483730ad5def1a0145310cee3987ba63d895981b3e3736ed7.png" title=" Joel enters '24081998' into Campo para ingresar la fecha" width="1366"/>
+                <img src="7e897ad31e8288e6c7e97db4e445b5b34c122a9d9dfde33e76bbae720c02eab7.png" title=" Joel enters 'https://www.hola2.com' into Campo para ingresar la Url" width="1366"/>
+                <img src="53f3317c3d0542e5164b2363318ab64081e2e5fff55f25a14151823e389e1a81.png" title=" Joel enters '123' into Campo para ingresar los digitos" width="1366"/>
+                <img src="2b0b3373eabddc084f34bbcd8fa991676d8d94b7b6ce50dcad3f6d79d6a7ffc2.png" title=" Joel enters '7' into Campo para ingresar el rango" width="1366"/>
+                <img src="03271ce114bae44c5c0b93dec500337993643c250104c9944efd2b86747aeee4.png" title=" Joel clicks on Marcamos para aceptar las politicas" width="1366"/>
+                <img src="a201449b4459b9527765c2780fa6f7de01f53583f0f9fecab08bc5b3724267dd.png" title=" Joel clicks on Boton para validar la informacion" width="1366"/>
+                <img src="a201449b4459b9527765c2780fa6f7de01f53583f0f9fecab08bc5b3724267dd.png" title=" Joel formulario (completed)" width="1366"/>
+                <img src="a201449b4459b9527765c2780fa6f7de01f53583f0f9fecab08bc5b3724267dd.png" title=" When enter a wrong confirm password in the field
+| strRequired | strEmail | strPassword | strCPassword | strDate | strUrl | strDigits | strRange |
+| Joel | joel1@gamil.com | 12345@JDRH | 12345@JDRH@ | 24081998 | https://www.hola2.com | 123 | 7 | (completed)" width="1366"/>
+                <img src="00dc1230960743a21843e074b8a214ac48b534ec53a1681c4d05b9641911034f.png" title=" Then check the validation message in the confirm password field
+| strCPasswordInvalida |
+| Please enter the same value again. |" width="1366"/>
+                <img src="00dc1230960743a21843e074b8a214ac48b534ec53a1681c4d05b9641911034f.png" title=" Then answer c password" width="1366"/>
+                <img src="00dc1230960743a21843e074b8a214ac48b534ec53a1681c4d05b9641911034f.png" title=" Then check the validation message in the confirm password field
+| strCPasswordInvalida |
+| Please enter the same value again. | (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
